@@ -13,7 +13,7 @@ python --version
 ## Clone the Repository
 
 ```sh
-git clone git clone git@github.com:Jutta197/telegram-translator.git
+git clone git@github.com:Jutta197/telegram-translator.git
 ```
 
 ## Navigate to the Project Directory
