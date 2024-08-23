@@ -36,7 +36,7 @@ api_id = 'api_id'
 api_hash = 'api_hash'
 ```
 
-### Launch the Application
+### Launch the Script
 
 ```sh
 py transdot3.py
