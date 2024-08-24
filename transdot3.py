@@ -39,15 +39,9 @@ async def main(event):
             await event.edit(combined_message)
         except (exceptions.NoResult, exceptions.UnknownLanguage) as error:
             await event.delete()
-            await client.send_message(
-                "me",
-                f"Error occurred while translating the message '{event.message.message}':\n{error}\n\nPlease try another language."
-            )
+            
         except Exception as e:
-            await client.send_message(
-                "me",
-                f"An unexpected error occurred: {e}"
-            )
+            pass
             
 
 # Run the client
